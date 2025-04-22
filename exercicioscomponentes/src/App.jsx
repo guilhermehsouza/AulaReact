@@ -1,5 +1,6 @@
 import Exemplo1 from "./Componentes/Exemplo1"
 import Exercicio1 from "./Componentes/Exercicio1"
+import Exercicio3 from "./Componentes/Exercicio3"
 
 export default function App()
 {
@@ -18,6 +19,11 @@ export default function App()
       <Exercicio1 fah={100} />
       <Exercicio1 fah={50} />
       <Exercicio1 fah={15} />
+
+      <hr />
+      <h3>Chamada para o Exercício 3</h3>
+      <Exercicio3 valor={100} taxa={10} tempo={2} />
+      <Exercicio3 valor={100} taxa={10} tempo={10} /> 
       
     </div>
   )
