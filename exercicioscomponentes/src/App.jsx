@@ -18,7 +18,7 @@ export default function App()
       <h3>Chamada para o Exercício 1</h3>
       <Exercicio1 fah={100} />
       <Exercicio1 fah={50} />
-      <Exercicio1 fah={15} />
+      <Exercicio1 fah={15} /> 
 
       <hr />
       <h3>Chamada para o Exercício 3</h3>
