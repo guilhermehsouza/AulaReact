@@ -6,6 +6,7 @@ export default function Home()
 
             <ul>
                 <li><a href="/sp">São Paulo</a></li>
+                <li><a href="/mg">Minas Gerais</a></li>
             </ul>
 
             
