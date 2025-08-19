@@ -5,11 +5,11 @@ export default function SaoPaulo()
             <h1>Seja bem vindo ao Estado de São Paulo</h1>
 
             <p>
-                São Paulo é o estado mais populoso e economicamente desenvolvido do Brasil. É conhecido por sua diversidade cultural, indústria forte e importância no setor financeiro. A capital, também chamada São Paulo, é uma das maiores metrópoles do mundo.
+                O estado de São Paulo é o mais rico e populoso do Brasil, conhecido por sua economia diversificada e indústria avançada. Sua capital, também chamada São Paulo, é a maior cidade do país e um importante centro financeiro e cultural. O estado destaca-se pela agricultura, tecnologia e infraestrutura desenvolvida.
             </p>
 
             <p>
-                <img src="" />
+                <img src="/SP.png"  />
             </p>
 
             <p>
