@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Paginas/Home";
 import Exemplo1 from "./Paginas/Exemplo1";
 import Exemplo2 from "./Paginas/Exemplo2";
+import "./App.css";
 
 export default function App() {
     return (
