@@ -25,6 +25,10 @@ export default function Exemplo2() {
           <p>
             <input type="button" value="Calcular Média" />
           </p>
+
+          <p>
+            <a href="/">Voltar</a>
+          </p>
         </form>
       </div>
     </div>
