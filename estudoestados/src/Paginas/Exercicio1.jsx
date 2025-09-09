@@ -4,7 +4,7 @@ export default function Exercicio1()
         <div>
             <h1>Exercício 1</h1>
 
-            
+
 
         </div>
     )
