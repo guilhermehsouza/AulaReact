@@ -17,16 +17,13 @@ export default function Home() {
 
         <h3>Exercícios</h3>
 
-        <p>
-          Na aula do dia 09/09/2025 iremos fazermos os 4 exercícios abaixo:
-        </p>
-
         <ul>
-            <li><Link to="/exercicio1">Exercício 1</Link></li>
-            <li><Link to="/exercicio2">Exercício 2</Link></li>
-            <li><Link to="/exercicio3">Exercício 3</Link></li>
-            <li><Link to="/exercicio4">Exercício 4</Link></li>
+            <li><a href="/exercicio1">Exercício 1</a></li>
+            <li><a href="/exercicio2">Exercício 2</a></li>
+            <li><a href="/exercicio3">Exercício 3</a></li>
+            <li><a href="/exercicio4">Exercício 4</a></li>
         </ul>
+        
       </div>
     </div>
   );

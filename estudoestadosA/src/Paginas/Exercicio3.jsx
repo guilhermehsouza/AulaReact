@@ -1,11 +1,10 @@
 export default function Exercicio3()
 {
-    return(
+    return (
         <div>
             <h1>Exercício 3</h1>
 
-            
 
         </div>
-    )
+    );
 }

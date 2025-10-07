@@ -4,33 +4,36 @@ export default function Exemplo2() {
       <h1>Exemplo 2</h1>
 
       <div className="conteudo">
-
-        <h3>Calculo da Média</h3>
+        <h3>Calculo da Média Aritmética</h3>
 
         <p>
-          O objetivo será receber duas notas, calcular a média e exibir o resultado na tela.
+          O objetivo será receber o nome do aluno, suas 3 notas e calcular a média.
         </p>
 
         <form>
           <p>
-            Digite a primeira nota <br />
+            Nome do Aluno: <br />
             <input type="text" />
           </p>
 
           <p>
-            Digite a segunda nota <br />
+            Nota 1: <br />
             <input type="text" />
           </p>
 
           <p>
-            <input type="button" value="Calcular Média" />
+            Nota 2: <br />
+            <input type="text" />
           </p>
 
+     
           <p>
-            <a href="/">Voltar</a>
+            <input type="button" value="Calcular" />
           </p>
+
         </form>
       </div>
+      
     </div>
   );
 }
