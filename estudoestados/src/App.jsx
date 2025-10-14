@@ -6,6 +6,7 @@ import Exercicio1 from "./Paginas/Exercicio1";
 import Exercicio2 from "./Paginas/Exercicio2";
 import Exercicio3 from "./Paginas/Exercicio3";
 import Exercicio4 from "./Paginas/Exercicio4";
+import Exercicio11 from "./Paginas/Exercicio11";
 import "./App.css";
 
 export default function App() {
@@ -21,6 +22,8 @@ export default function App() {
                 <Route path="/exercicio2" element={<Exercicio2 />} />
                 <Route path="/exercicio3" element={<Exercicio3 />} />
                 <Route path="/exercicio4" element={<Exercicio4 />} />
+
+                <Route path="/exercicio11" element={<Exercicio11 />} />
             </Routes>
         </BrowserRouter>
     );
