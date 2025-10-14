@@ -2,13 +2,13 @@ import { useState } from "react";
 
 export default function Exercicio4()
 {
-    const [breno, setBase] = useState(0);
-    const [lorena, setAltura] = useState(0);
+    const [base, setBase] = useState(0);
+    const [altura, setAltura] = useState(0);
     const [area, setArea] = useState(0);
 
     function calcularArea()
     {
-        let area = ( Number(breno) * Number(lorena)) / 2;
+        let area = (base * altura) / 2;
         setArea( area );
     }
     return(
@@ -19,12 +19,12 @@ export default function Exercicio4()
                 <form action="">
                     <p>
                         Digite o valor da base <br />
-                        <input type="text" value={breno} onChange={e => setBase(Number(e.target.value))} />
+                        <input type="text" value={base} onChange={e => setBase(Number(e.target.value))} />
                     </p>
 
                     <p>
                         Digite o valor da altura <br />
-                        <input type="text" value={lorena} onChange={e => setAltura(Number(e.target.value))} />
+                        <input type="text" value={altura} onChange={e => setAltura(Number(e.target.value))} />
                     </p>
 
                     <p>
@@ -32,8 +32,8 @@ export default function Exercicio4()
                     </p>
 
                     <p>
-                        O valor da base é: {breno} <br />
-                        O valor da altura é: {lorena} <br />
+                        O valor da base é: {base} <br />
+                        O valor da altura é: {altura} <br />
                         O valor da área é: {area}
                     </p>
 
