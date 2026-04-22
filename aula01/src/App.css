@@ -1,0 +1,23 @@
+body
+{
+    margin : 0;
+    padding: 0;
+}
+
+h1
+{
+    background-color: #960000;
+    color : white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.conteudo{
+    border : 1px solid #960000;
+    border-radius: 10px;
+    width: 600px;
+    margin : 10px auto;
+    padding: 10px;
+    box-shadow: 0 10px 10px gray;
+}
