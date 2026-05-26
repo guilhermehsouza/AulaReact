@@ -1,11 +1,13 @@
 import "./App.css";
-import Exemplo1 from "./Exemplo1";
-import Exercicio1 from "./Exercicio1";
-import Exercicio2 from "./Exercicio2";
-import Exercicio3 from "./Exercicio3";
-import Exercicio4 from "./Exercicio4";
-import Exercicio5 from "./Exercicio5";
-import Exercicio6 from "./Exercicio6";
+import Exemplo1 from "./paginas/Exemplo1";
+import Exercicio1 from "./paginas/Exercicio1";
+import Exercicio2 from "./paginas/Exercicio2";
+import Exercicio3 from "./paginas/Exercicio3";
+import Exercicio4 from "./paginas/Exercicio4";
+import Exercicio5 from "./paginas/Exercicio5";
+import Exercicio6 from "./paginas/Exercicio6";
+import Exercicio7 from "./paginas/Exercicio7";
+import Exercicio8 from "./paginas/Exercicio8";
 
 export default function App() {
   return (
@@ -52,6 +54,18 @@ export default function App() {
         <Exercicio6 capital={5000} taxa={2} tempo={12} />
       </div>
 
+      <div className="card">
+        <h3>Exercício 7</h3>
+        <Exercicio7 celsius={30} />
+        <Exercicio7 celsius={100} />
+      </div>
+
+      <div className="card">
+        <h3>Exercício 8</h3>
+        <Exercicio8 distancia={300} combustivel={20} />
+        <Exercicio8 distancia={150} combustivel={15} />
+      </div>
+ 
     </div>
   )
 }
